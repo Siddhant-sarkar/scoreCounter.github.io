@@ -4,3 +4,10 @@
 .loser{
    color:red;
 }
+html{
+   background-image: url(./let-there-be-sun.png);
+
+}
+#father{
+   padding-top: 2em;
+}

@@ -46,6 +46,7 @@ function newAll(){
    gameOver=false;
    s1.classList.remove("winner","loser");
    s2.classList.remove("winner","loser");
+   document.querySelectorAll("h1")[1].textContent=`The max Target is ${maxTarget}`;
 }
 
 mc.addEventListener('change',function(){
